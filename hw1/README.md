@@ -33,3 +33,7 @@
 - hw1_best.sh
     - usage: `bash hw1_best.sh test.csv output.csv`
 
+- final score
+    - private score: 8.50022
+    - public score: 8.34542
+
