@@ -18,6 +18,9 @@
 - model.npy
     - saving the result parameters of `Logistic_regression.py`
 
+- g_model.npy
+    - saving the result parameters of `Generative.py`
+
 - hw2_logistic.py
     - using `Logistic_regression.py` result to estimate testing data
 
