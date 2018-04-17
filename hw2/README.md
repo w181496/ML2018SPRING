@@ -45,4 +45,9 @@
         - Generative model: `0.84557`
         - Strong Baseline: `0.85773`
         - Simple Baseline: `0.84348`
+    - private score:
+        - Logistic model without regularization: `0.84891`
+        - Generative model: `0.84191`
+        - Strong Baseline: `0.85382`
+        - Simple Baseline: `0.83245`
 
