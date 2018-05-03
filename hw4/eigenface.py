@@ -18,7 +18,7 @@ face_mean = face_arr.mean(axis=0)
 X = face_arr - face_mean
 
 M = np.dot(X, X.T)
-e,EV = np.linalg.eig(M)
+e, EV = np.linalg.eig(M)
 print(EV.shape)
 
 tmp = np.dot(X.T,EV).T
@@ -26,10 +26,10 @@ S = np.nan_to_num(np.sqrt(e))
 U = [tmp[i]/S[i] for i in range(12)]
 
 # ==== plot eigenface ====
-img = -U[1].reshape(600,600,3)
-img -= np.min(img)
-img /= np.max(img)
-img = (img*255).astype(np.uint8)
+#img = -U[1].reshape(600,600,3)
+#img -= np.min(img)
+#img /= np.max(img)
+#img = (img*255).astype(np.uint8)
 
 #io.imshow(img)
 # =========================
@@ -37,7 +37,7 @@ img = (img*255).astype(np.uint8)
 U = np.array(U)
 
 
-target = io.imread(os.path.join(dir_path, i)).flatten()
+target = io.imread(os.path.join(dir_path, target_path)).flatten()
 target = target - face_mean
 #print(V.shape)
 print(target.shape)
