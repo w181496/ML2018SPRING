@@ -16,7 +16,7 @@
     - public score:
         - My score: `0.9998`
         - Strong Baseline: `0.90099`
-        - Private Baseline: `0.50475`
+        - Simple Baseline: `0.50475`
     - private score:
         - My score: `0.9998`
         - Strong Baseline: `0.90100`
